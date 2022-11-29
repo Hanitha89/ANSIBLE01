@@ -1,0 +1,23 @@
+---
+ - students:
+    - Name: anil
+    - Phn: 7013241366
+    - Address:
+       - DNo: 11-124
+       - Street: Bharath Nagar
+       - Pincode: 500089 
+      
+    - Name: Krishna
+    - Phn: 9133521819
+    - Address:
+       - DNo: 1-84
+       - Street: Vasant Nagar
+       - Pincode: 500085 	
+
+    - Name: Jyosthna
+    - Phn: 9505555035
+    - Address:
+       - DNo: 11-124
+       - Street: Bharath Nagar
+       - Pincode: 500089 	
+       

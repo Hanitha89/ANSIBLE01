@@ -1,0 +1,24 @@
+---
+- hosts: all
+  become: yes
+  task:
+  - name: i want install tree
+     apt:
+       name: tree
+       state: present
+
+  - name: Install wget
+     apt: 
+       name: wget
+       state: present
+
+  - name: Install apache httpd 
+     apt:
+       name: apache2
+       state: present   
+
+  - name: Install latest version of "openjdk-6-jdk" ignoring "install-recommends"
+     apt:
+       name: openjdk-6-jdk
+       state: latest
+       install_recommends: no 
